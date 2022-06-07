@@ -1,0 +1,34 @@
+﻿@page
+@model WebApp.Pages.Forms.CustomSushiModel
+@{
+}
+
+
+<div class="text-center container">
+    <h1>Create Your Own Sushi!</h1>
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-5 alert-light col-4">
+        <input type="text" asp-for="Sushi.SushiName" placeholder="Give your pizza a name.."/>
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Rice" placeholder="Rice"/> Rice
+        <br/>
+        <input type="checkbox" asp-for="Sushi.CreamCheese" placeholder="CreamCheese"/> CreamCheese
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Tuna" placeholder="Tuna"/> Tuna
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Salmon" placeholder="Salmon"/> Salmon
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Avacado" placeholder="Avacado"/> Avacado
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Cucumber" placeholder="Cucumber"/> Cucumber
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Masago" placeholder="Masago"/> Masago
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Shrimp" placeholder="Shrimp"/> Shrimp
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Spicy" placeholder="Spicy"/> Spicy
+        <br/>
+        <input type="checkbox" asp-for="Sushi.Tempura" placeholder="Tempura"/> Tempura
+        <br/>
+        <button class="btn btn-primary mt-1" type="submit">Order My Sushi</button>
+    </form>
+</div>

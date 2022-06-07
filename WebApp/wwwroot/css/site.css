@@ -1,0 +1,61 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.mainText {
+    padding: 75px 20px;
+}
+
+.mainImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.mainSubTitle{
+    font-weight:400;
+    letter-spacing: 2px;
+}
+
+.smallText{
+    text-align:right;
+    color:grey;
+}
+
+.makeYourOwnDiv{
+    background:grey;
+    margin: 0;
+}
+
+.makeYourOwnText{
+    margin: 100px 0 20px 0;
+    color:white;
+}
+
+.sushi-img:hover {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+}
+
+.fixImage {
+    max-width: 90%;
+    max-height: 40%;
+    margin-bottom:auto;
+}
+
